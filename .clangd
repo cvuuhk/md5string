@@ -1,0 +1,6 @@
+CompileFlags:
+  Remove:
+    - -forward-unknown-to-host-compiler
+    - --expt-relaxed-constexpr
+    - "-ccbin=*"
+    - "--generate-code=*"
